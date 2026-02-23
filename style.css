@@ -1,0 +1,61 @@
+@font-face {
+    font-family: sher;
+    src: url(./Gilroy-Light.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: skyblue;
+    font-family: sher;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-left:60px;
+    margin-top:40px;
+    height: 350px;
+    width:250px;
+    background-color: #D5D5D5;
+    border-radius: 20px;
+}
+.card img{  
+    margin-left:50px;
+    margin-top:10px;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position:top;
+}
+.card h4{
+    font-size:20px;
+    text-align: center;
+    font-weight: 900;
+}
+.card p{
+    font-size:15px;
+    margin-top:5px;
+    text-align: center;
+    font-weight: 900;
+}
+.card button{
+    padding:10px 30px;
+    border-radius: 20px;
+    margin-top:20px;
+    margin-left:70px;
+    cursor: pointer;
+    background-color: #F4837D;
+    color:white;
+    border:none;
+    font-size: 20px;
+}
+.card button:hover{
+    background-color: transparent;
+    color:#F4837D;
+}
